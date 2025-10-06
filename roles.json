@@ -1,0 +1,15 @@
+{
+  "admins": [
+    {
+      "nick": "ArabAdmin",
+      "passHash": "$2a$10$mYJmcD1KSk95yrR2spC7q.2i2GbApW15ifphktD4S.lzOtUy.ERy."
+    }
+  ],
+  "mods": [
+    {
+      "nick": "CHAN1",
+      "passHash": "$2a$10$KH2XIlGx54eqWAhhF2Cs4OtCytg8skg/CKhG4QzFz5uYwzTbQ/MiS"
+    }
+  ],
+  "bans": []
+}

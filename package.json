@@ -1,0 +1,19 @@
+{
+  "name": "arabchat",
+  "version": "1.0.0",
+  "description": "Real-time Arabic chat with roles and admin panel (bcrypt)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "geoip-lite": "^1.4.2"
+  }
+}

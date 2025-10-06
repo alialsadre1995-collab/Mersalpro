@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: Mersal-Chat-Pro
+    env: node
+    plan: starter
+    autoDeploy: true
+    runtime: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    healthCheckPath: "/"
+    envVars:
+      - key: NODE_VERSION
+        value: "18.20.3"
+      - key: ROLES_PATH
+        value: "/data/roles.json"
+    disk:
+      name: roles-disk
+      mountPath: /data
+      sizeGB: 1
